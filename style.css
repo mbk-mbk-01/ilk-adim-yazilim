@@ -1,0 +1,10 @@
+body {
+    background-color: #f0f0f0; /* Açık gri arka plan */
+    font-family: Arial, sans-serif; /* Daha modern bir yazı tipi */
+    color: #333; /* Koyu gri yazı rengi */
+}
+
+h1 {
+    color: darkblue; /* Başlığımız koyu mavi olsun */
+    text-align: center; /* Başlığı ortalayalım */
+}
