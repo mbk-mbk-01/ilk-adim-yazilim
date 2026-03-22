@@ -40,13 +40,19 @@ body {
 /* Genel Buton Tasarımı */
 button {
     height: 60px;
-    width: 60px;
-    border-radius: 50%; /* Yuvarlak butonlar */
+    /* width: 60px;  <-- BU SATIRI SİLDİK VEYA YORUMA ALDIK */
+    border-radius: 30px; /* Tam yuvarlak yerine hafif oval yapalım ki 0 butonu yayılabilsin */
     border: none;
     font-size: 20px;
     cursor: pointer;
     background-color: #333;
     color: white;
+    width: 100%; /* İçinde bulunduğu grid hücresini tam doldurmasını sağlar */
+}
+
+/* 0 butonu için özel bir sınıf ekleyelim */
+.genis-buton {
+    grid-column: span 2; /* İki sütun kapla */
 }
 
 /* Özel renkler */
