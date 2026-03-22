@@ -1,10 +1,28 @@
+/* 1. Tüm sayfanın (Body) genel ayarları */
 body {
-    background-color: #f0f0f0; /* Açık gri arka plan */
-    font-family: Arial, sans-serif; /* Daha modern bir yazı tipi */
-    color: #333; /* Koyu gri yazı rengi */
+    background-color: #eef2f3; /* Yumuşak bir gri/mavi arka plan */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Okunaklı yazı tipi */
+    line-height: 1.6; /* Satır aralığını açalım ki yazı rahat okunsun */
+    margin: 0;
+    padding: 20px;
 }
 
+/* 2. Başlıkları renklendirelim */
 h1 {
-    color: darkblue; /* Başlığımız koyu mavi olsun */
-    text-align: center; /* Başlığı ortalayalım */
+    color: #2c3e50; /* Koyu lacivert */
+    border-bottom: 2px solid #3498db; /* Altına ince mavi bir çizgi çekelim */
+    padding-bottom: 10px;
+}
+
+/* 3. Listemizi biraz daha şık yapalım */
+ul {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px; /* Köşeleri yuvarlayalım */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Hafif bir gölge ekleyelim */
+}
+
+li {
+    margin-bottom: 10px;
+    color: #555;
 }
