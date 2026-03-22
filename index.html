@@ -5,17 +5,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Merhaba, Ben MBK </h1>
-    <p>Bu satır bilgisayarımdaki VS Code ile eklendi</p>
-    <h2>Hedefim yazılımcı olmak</h2>
-    <p>Bugün GitHub öğrenmeye başladım ve bu benim ilk kodum.</p>
-    <h3>Öğrendiğim Teknolojiler:</h3>
-    <ul>
-        <li>HTML (Şu an öğreniyorum)</li>
-        <li>GitHub (Temellerini attım)</li>
-        <li>CSS (Sıradaki hedefim)</li>
-    </ul>
-    <button id="renkButonu">Arka Planı Değiştir</button>
-    <script src="script.js"></script>
+    <div class="calculator">
+    <div id="ekran">0</div>
+    
+    <div class="butonlar">
+        <button onclick="temizle()">C</button>
+        <button onclick="sayiEkle('/')">/</button>
+        <button onclick="sayiEkle('*')">x</button>
+        <button onclick="sil()">Del</button>
+        
+        <button onclick="sayiEkle('7')">7</button>
+        <button onclick="sayiEkle('8')">8</button>
+        <button onclick="sayiEkle('9')">9</button>
+        <button onclick="sayiEkle('-')">-</button>
+        
+        <button onclick="sayiEkle('4')">4</button>
+        <button onclick="sayiEkle('5')">5</button>
+        <button onclick="sayiEkle('6')">6</button>
+        <button onclick="sayiEkle('+')">+</button>
+        
+        <button onclick="sayiEkle('1')">1</button>
+        <button onclick="sayiEkle('2')">2</button>
+        <button onclick="sayiEkle('3')">3</button>
+        <button onclick="hesapla()">=</button>
+        
+        <button onclick="sayiEkle('0')" style="grid-column: span 2;">0</button>
+        <button onclick="sayiEkle('.')">.</button>
+    </div>
+</div>
 </body>
 </html>
