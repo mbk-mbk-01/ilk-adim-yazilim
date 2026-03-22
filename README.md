@@ -1,5 +1,10 @@
 # ilk-adim-yazilim
-yeni başlama alıştırma 1
+
+NOTLAR :
+
+Sitenin açık olduğu sekmede Mac kullanıyorsan Cmd + Shift + R tuşlarına bas. Bu, sayfayı "zorla" en baştan yükler.
+
+
 
 
 -- <h1>, <h2>, <h3>... (Heading): "Başlık" demektir.
